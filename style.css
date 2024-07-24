@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(to bottom right, #f0f4c3, #72d0fc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+#file{
+  margin: 10px;
+  margin-top: 10px;
+  align-items: center;
+  margin-left:7%;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+ padding-top: 20px;
+ width: 100px;
+ background-repeat: no-repeat;
+ filter: blur(0.5px);
+  height: 400px;
+  margin: 32px auto;
+  padding: 32px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(pexels-jaydenburdick-3397935.jpg);
+  background-size: contain;
+  background-position: center;
+ 
+ 
+}
+.result{
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  border: 3px rgb(245, 239, 239) solid;
+  background-color: transparent;
+  width: 100px;
+  margin-left: 45%;
+
+  
+  
+}
+.result:hover{
+  cursor: pointer;
+  background-color: azure;
+  color: black;
+
+}
+
+h1,
+.button {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+label,
+input[type="file"] {
+  transition: all 0.3s ease-in-out;
+  color: white;
+  font-weight: bold;
+}
+
+label:hover,
+input[type="file"]:hover {
+  color: #3e8e41;
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #2b9e9e;
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0d3436;
+}
+
+#result {
+  margin-top: 48px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.container2{
+ 
+  text-align: center;
+  margin-top: 20px;
+}
+.container2 p{
+  font-weight: bolder;
+  font-size: 5vw;
+  border: 5px;
+ border-color: black;
+ color: rgb(255, 255, 255);
+ overflow: hidden;
+ outline: black;
+
+
+}
